@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+/* Header section */
+
+#header {
+    align-items: center;
+    background-color: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#header ul{
+    display: flex;
+}
+
+#header ul li{
+    margin: 0 20px;
+}
+
+/* Banners section */
+
+#banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 50px;
+    background-color: #E5E5E5;
+}
+
+.left-banner {
+    width: 590px; 
+    height: 450px;
+    position: relative;
+    left: 10px;
+}
+
+.left-banner h2{
+    color: red;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.left-banner h2 span {
+    color: white;
+}
+
+.right-banner {
+    color: black;
+    position: relative;
+    right: 20px;
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    right: 10px;
+}
+
+#tittle-podio {
+    text-align: center;
+    top: 25px;
+    position: relative;
+    font-size: 30px;
+    color: red;
+}
+
+.podium {
+    padding: 50px;
+    position: relative;
+    top: 50px;
+}
+
+.podium h3 {
+    margin: 0 0 20px 40px;
+    font-size: 25px;
+}
+
+.podium ol li {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.right-banner img {
+    position: relative;
+    right: -400px;
+    bottom: 160px;
+}
+
+#footer{
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#footer ul li{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#footer img {
+    margin-right: 50px;
+}
